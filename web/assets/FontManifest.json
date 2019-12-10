@@ -1,25 +1,17 @@
 [
   {
-    "family": "Raleway",
+    "family": "MaterialIcons",
     "fonts": [
       {
-        "asset": "fonts/Raleway-Regular.ttf"
-      },
-      {
-        "asset": "fonts/Raleway-Italic.ttf",
-        "style": "italic"
+        "asset": "fonts/MaterialIcons/MaterialIcons-Regular.ttf"
       }
     ]
   },
   {
-    "family": "RobotoMono",
+    "family": "Lato",
     "fonts": [
       {
-        "asset": "fonts/RobotoMono-Regular.ttf"
-      },
-      {
-        "asset": "fonts/RobotoMono-Bold.ttf",
-        "weight": 700
+        "asset": "fonts/Lato/Lato-Regular.ttf"
       }
     ]
   }
