@@ -1,46 +1,29 @@
-name: todo_rename
+name: flutter_web_signin
 description: A new Flutter project.
 
 version: 1.0.0+1
 
-environment:
-  sdk: ">=2.1.0 <3.0.0"
-
 dependencies:
-  flutter:
-    sdk: flutter
-
-  cupertino_icons: ^0.1.2
-  flutter_svg: ^0.15.0
+  flutter_web:
+  flutter_web_ui:
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_launcher_icons: "^0.7.3"
+  flutter_web_test:
+  build_runner:
+  build_web_compilers:
+  test:
 
-flutter_icons:
-  android: "launcher_icon" 
-  ios: true
-  image_path: "assets/images/TODO.png"
-  adaptive_icon_background: "#ffffff"
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  flutter_web_test:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_test
 
-flutter:
-  uses-material-design: true
-
-  assets:
-  - assets/
-  - assets/images/
-
-  fonts:
-    - family: rubik
-      fonts:
-        - asset: assets/fonts/Rubik/Rubik-Light.ttf
-          weight: 300
-        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/Rubik/Rubik-Medium.ttf
-          weight: 500
-        - asset: assets/fonts/Rubik/Rubik-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/Rubik/Rubik-Black.ttf
-          weight: 900
