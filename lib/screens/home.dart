@@ -158,10 +158,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           IconButton(
-      // Use the FontAwesomeIcons class for the IconData
-      icon: Icon(FontAwesomeIcons.ad), 
-      onPressed: () { print("Pressed"); }
-     ),
+                              icon: Icon(FontAwesomeIcons.ad),
+                              onPressed: () {
+                                print("Pressed");
+                              }),
                           IconButton(
                             icon: Icon(Icons.gamepad),
                             onPressed: () {},
