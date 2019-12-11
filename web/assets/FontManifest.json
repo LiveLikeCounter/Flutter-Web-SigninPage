@@ -14,5 +14,29 @@
         "asset": "fonts/Lato/Lato-Regular.ttf"
       }
     ]
+  },
+  {
+    "family": "Kalam",
+    "fonts": [
+      {
+        "asset": "fonts/Kalam/Kalam-Regular.ttf"
+      }
+    ]
+  },
+  {
+    "family": "GothamRounded",
+    "fonts": [
+      {
+        "asset": "fonts/GothamRounded/GothamRounded-Book.otf"
+      }
+    ]
+  },
+  {
+    "family": "FontAwesomeBrands",
+    "fonts": [
+      {
+        "asset": "fonts/FontAwesome/fa-brands-400.ttf"
+      }
+    ]
   }
 ]

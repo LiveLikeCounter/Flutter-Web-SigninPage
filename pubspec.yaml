@@ -4,14 +4,14 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 dependencies:
-  flutter_web:
-  flutter_web_ui:
+  flutter_web: any
+  flutter_web_ui: any
 
 dev_dependencies:
-  flutter_web_test:
-  build_runner:
-  build_web_compilers:
-  test:
+  flutter_web_test: any
+  build_runner: any
+  build_web_compilers: any
+  test: any
 
 dependency_overrides:
   flutter_web:
